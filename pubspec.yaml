@@ -1,0 +1,180 @@
+name: project_i_am_in_control
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.13.1
+  firebase_auth: ^4.2.5
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  english_words: ^4.0.0
+  phosphor_flutter: ^1.4.0
+  cloud_firestore: ^4.7.0
+  dropdown_button2: ^1.9.2
+  image_card: ^0.0.4
+  open_filex: ^4.3.2
+  flutter_pdfview: ^1.2.1
+  path_provider: ^2.0.15
+  http: ^0.13.5
+  firebase_database: ^10.0.14
+  footer: ^0.0.4
+  url_launcher: ^6.1.10
+  blinking_text: ^1.0.2
+  intl: ^0.18.0
+  syncfusion_flutter_datepicker: ^21.2.6
+  jiffy: ^6.2.1
+  card_slider: ^1.0.5
+  firebase_storage: ^11.2.2
+  dio: ^5.2.1
+  gallery_saver: ^2.3.2
+  audioplayers: ^4.1.0
+  flutter_exit_app: ^1.1.2
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+  diacritic: ^0.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.12.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/yinyang_logo.png"
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/images/psychologuiqueTests/depression.jpg
+    - assets/images/psychologuiqueTests/anxiety.jpg
+    - assets/images/psychologuiqueTests/foodDisorder.jpg
+    - assets/images/psychologuiqueTests/selfEsteem.jpg
+    - assets/images/logos/opp_logo.png
+    - assets/images/homeScreen/psychologuiqueTests.png
+    - assets/images/homeScreen/checkUpLists.png
+    - assets/images/homeScreen/sleepHabits.png
+    - assets/images/homeScreen/leaveAddictions.png
+    - assets/images/homeScreen/userGoals.png
+    - assets/images/homeScreen/userPersonalDiary.png
+    - assets/images/homeScreen/dailyAffirmations.png
+    - assets/images/sleepHabits/sleepSounds.png
+    - assets/images/sleepHabits/sleepTips.png
+    - assets/images/affirmationsCategories/angerAnxiety.png
+    - assets/images/affirmationsCategories/customAdded.png
+    - assets/images/affirmationsCategories/geral.png
+    - assets/images/affirmationsCategories/hardTimes.png
+    - assets/images/affirmationsCategories/personalGrowing.png
+    - assets/images/affirmationsCategories/jobGrowing.png
+    - assets/images/affirmationsCategories/positiveThink.png
+    - assets/images/affirmationsCategories/selfLove.png
+    - assets/images/addictionIcons/ComprasImpulsivas.png
+    - assets/images/addictionIcons/ConsumirAlcool.png
+    - assets/images/addictionIcons/ConsumirTabaco.png
+    - assets/images/addictionIcons/VerPornografia.png
+    - assets/images/addictionIcons/VisitarRedesSociais.png
+    - assets/images/loadingGif/yinYangRotate.gif
+    - assets/images/userIcons/avatarIcon1.png
+    - assets/images/userIcons/avatarIcon2.png
+    - assets/images/userIcons/avatarIcon3.png
+    - assets/images/userIcons/avatarIcon4.png
+    - assets/images/logos/googleIcon.png
+
+    - assets/documents/psychologiqueTests/IamInControl_GAD-7_PT.pdf
+    - assets/documents/psychologiqueTests/IamInControl_PHQ-9_PT.pdf
+    - assets/documents/psychologiqueTests/IamInControl_Rosenberg_Self-esteem_Scale_PT.pdf
+    - assets/documents/psychologiqueTests/IamInControl_SCOFF_Questionnaire_PT.pdf
+    - assets/documents/checkLists/IamInControl_Checklist_Adultos_PT.pdf
+    - assets/documents/checkLists/IamInControl_Checklist_AutoCuidado_PT.pdf
+    - assets/documents/checkLists/IamInControl_Checklist_Jovens_PT.pdf
+    - assets/documents/checkLists/IamInControl_Checklist_SouResiliente_PT.pdf
+    - assets/documents/userManual/IamInControl_ManualdeUtilizador.pdf
+
+    - assets/languages/en.json
+    - assets/languages/pt.json
+
+  fonts:
+    - family: lato
+      fonts:
+        - asset: assets/fonts/lato/Lato-Hairline.ttf
+          weight: 100
+        - asset: assets/fonts/lato/Lato-HairlineItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/lato/Lato-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/lato/Lato-ThinItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/lato/Lato-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/lato/Lato-RegularItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/lato/Lato-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/lato/Lato-MediumItalic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/lato/Lato-Semibold.ttf
+          weight: 500
+        - asset: assets/fonts/lato/Lato-SemiboldItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/lato/Lato-Semibold.ttf
+          weight: 500
+        - asset: assets/fonts/lato/Lato-SemiboldItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/lato/Lato-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/lato/Lato-BoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/lato/Lato-Heavy.ttf
+          weight: 700
+        - asset: assets/fonts/lato/Lato-HeavyItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/lato/Lato-Black.ttf
+          weight: 800
+        - asset: assets/fonts/lato/Lato-BlackItalic.ttf
+          weight: 800
+          style: italic
+    - family: tommy
+      fonts:
+        - asset: assets/fonts/tommy/tommy.ttf
+
